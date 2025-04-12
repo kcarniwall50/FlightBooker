@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Airflightcart - Your one-stop solution for all your travel and airline reservation needs"
+    />
+    <!-- Prevent image blurriness on high DPI displays -->
+    <meta name="format-detection" content="telephone=no">
+    
+    <!-- Apple touch icon for iOS devices -->
+    <link rel="apple-touch-icon" href="./logo.png" />
+    
+    <!-- Include manifest file for PWA support -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <!-- Preload the logo image for better performance -->
+    <link rel="preload" href="./logo.png" as="image" />
+    
+    <!-- Enhance font rendering -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+
+    <title>Airflightcart</title>
+    
+    <!-- Optional: Add a style tag to ensure logo clarity -->
+    <style>
+      .logo-img {
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges;
+        -ms-interpolation-mode: nearest-neighbor;
+        transform: translateZ(0); /* Force GPU acceleration */
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
